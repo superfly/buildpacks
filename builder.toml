@@ -1,0 +1,15 @@
+[[buildpacks]]
+uri="flyio/deno-cnb"
+
+[[order]]
+  [[order.group]]
+  id="io.fly.deno"
+  version="0.0.1"
+
+[stack]
+id="org.cloudfoundry.stacks.cflinuxfs3"
+run-image="cloudfoundry/build:full-cnb"
+build-image="cloudfoundry/run:full-cnb"
+
+
+
