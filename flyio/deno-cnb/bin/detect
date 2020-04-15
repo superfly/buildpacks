@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -eo pipefail
 
+echo "---> Deno Detect (deno-app.ts)"
 if [[ ! -f deno-app.ts ]]; then
    exit 100
 fi
